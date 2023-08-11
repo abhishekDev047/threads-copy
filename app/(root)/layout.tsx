@@ -23,6 +23,9 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en">
       <body className={inter.className}>
+        <main className='flex flex-row'>
+
+        
 
         <Topbar />
 
@@ -37,7 +40,7 @@ export default function RootLayout({
         <RightSidebar />
 
         <Bottombar />
-
+    </main>
       </body>
     </html>
     </ClerkProvider>
